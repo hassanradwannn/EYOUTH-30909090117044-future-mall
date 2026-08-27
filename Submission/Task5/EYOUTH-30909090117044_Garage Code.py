@@ -27,11 +27,10 @@ def show_garage_status():
 
 
 def blink(led):
-    for number in range(3):
-        led.on()
-        sleep(0.3)
-        led.off()
-        sleep(0.3)
+    # Each successful movement flashes its LED once.
+    led.on()
+    sleep(0.3)
+    led.off()
 
 
 show_garage_status()

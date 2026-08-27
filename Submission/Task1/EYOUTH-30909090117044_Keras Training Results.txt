@@ -1,0 +1,20 @@
+Future Mall Keras training run
+Project ID: EYOUTH-30909090117044
+Training data: fruit=9, veg=10, dairy=9
+
+Results after epoch 1
+360_F_231842968_qThCnmslPbEAwhg7nuW9rAy8qRNhRli7.jpg | veg | 38.56%
+Marketvegetables.jpg | veg | 50.31%
+Oranges_-_whole-halved-segment.jpg | veg | 43.22%
+
+Results after epoch 2
+360_F_231842968_qThCnmslPbEAwhg7nuW9rAy8qRNhRli7.jpg | veg | 36.42%
+Marketvegetables.jpg | veg | 53.19%
+Oranges_-_whole-halved-segment.jpg | veg | 46.02%
+
+Confidence change after the additional epoch
+360_F_231842968_qThCnmslPbEAwhg7nuW9rAy8qRNhRli7.jpg | -2.13 percentage points
+Marketvegetables.jpg | +2.88 percentage points
+Oranges_-_whole-halved-segment.jpg | +2.79 percentage points
+
+Conclusion: confidence increased for two of the three test images and decreased for one. The small 28-image dataset means the model results are limited and should be reported honestly.
