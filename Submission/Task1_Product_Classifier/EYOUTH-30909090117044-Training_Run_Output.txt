@@ -1,0 +1,18 @@
+fruit training images: 9
+veg training images: 10
+dairy training images: 9
+
+Test results
+-------------------------------------------------------
+Image: 360_F_231842968_qThCnmslPbEAwhg7nuW9rAy8qRNhRli7.jpg
+Prediction: fruit
+Confidence: 68.98%
+-------------------------------------------------------
+Image: Marketvegetables.jpg
+Prediction: dairy
+Confidence: 69.37%
+-------------------------------------------------------
+Image: Oranges_-_whole-halved-segment.jpg
+Prediction: fruit
+Confidence: 69.03%
+-------------------------------------------------------
