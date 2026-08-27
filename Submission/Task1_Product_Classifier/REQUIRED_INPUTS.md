@@ -1,1 +1,0 @@
-To complete this task, add the supplied Future_Mall_Product_Classifier_Template.py, 30 real training images (10 each for Fruits, Vegetables, Dairy Products), and at least 3 separate test images. Record actual predictions and confidence after training.

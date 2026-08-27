@@ -1,1 +1,0 @@
-Not created: a screenshots PDF must contain real screenshots from a live Wokwi simulation (circuit and code). It is not fabricated.

@@ -16,7 +16,7 @@ import tensorflow as tf
 # The category folder names are kept in this order for clear results.
 CATEGORIES = ["fruit", "veg", "dairy"]
 IMAGE_SIZE = (64, 64)
-BASE_FOLDER = Path(__file__).parent.parent / "Task1_Product_Classifier" / "data"
+BASE_FOLDER = Path(__file__).parent / "data"
 TRAINING_FOLDER = BASE_FOLDER / "training"
 TEST_FOLDER = BASE_FOLDER / "test"
 MODEL_FILE = "EYOUTH-30909090117044_Product Classifier.keras"

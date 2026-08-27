@@ -1,23 +1,13 @@
-# Future Mall Portfolio Project
+# Future Mall Submission
 
-**Project ID:** EYOUTH-30909090117044
+**Student ID:** `EYOUTH-30909090117044`
 
-This portfolio project brings together Python, Excel data analysis, basic image-classification workflow, HTML/CSS, cybersecurity planning, graphic design, and an ESP32 smart-garage simulation.
+All submission artifacts are organized once, by task, under `Submission/`.
 
-## Project folders
+- `Task1/` — Cashier program, visitor analysis, Keras classifier ZIP, classifier template, training data, and actual training report.
+- `Task2/` — HTML web page and its shared Future Mall logo.
+- `Task3/` — Cybersecurity protection-plan PDF.
+- `Task4/` — Final opening-advertisement PNG, two logo concepts, and design notes.
+- `Task5/` — Garage diagram, truth table, Wokwi wiring, MicroPython code, and the Wokwi-link text file.
 
-- `code/` — Python cashier, Future Mall website, ESP32 MicroPython source, Wokwi project files, and system diagram.
-- `docs/` — project overview, cybersecurity plan, Excel analysis, truth table, logo concepts, final logo, and opening advertisement.
-
-## Main project files
-
-- `code/EYOUTH-30909090117044_cashier.py` — cashier program with the optional `calculate_total()` bonus function.
-- `code/EYOUTH-30909090117044_future_mall.html` — simple Future Mall web page.
-- `code/EYOUTH-30909090117044_wokwi/` — ESP32 Smart Garage Wokwi project.
-- `docs/Visitors_Analysis_EYOUTH-30909090117044.xlsx` — visitor analysis with column chart.
-- `docs/Cybersecurity_Plan_EYOUTH-30909090117044.docx` — protection plan and staff awareness sign.
-- `docs/Project_Overview_EYOUTH-30909090117044.docx` — logo concepts, final logo decision, and design colors.
-
-## Wokwi
-
-Open the `code/EYOUTH-30909090117044_wokwi` folder in Wokwi, then use **Share** to create the public simulation link. The source files are complete; the share URL is created by Wokwi after the project is imported or saved in a Wokwi account.
+No legacy duplicate task folders are retained. The Wokwi link file is intentionally marked pending until a real Wokwi project is successfully saved and shared.
