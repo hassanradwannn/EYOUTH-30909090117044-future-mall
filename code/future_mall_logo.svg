@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" role="img" aria-labelledby="title desc">
+  <title id="title">Future Mall logo</title>
+  <desc id="desc">A shopping bag with a star beside the words Future Mall.</desc>
+  <rect width="360" height="120" rx="20" fill="#ffffff"/>
+  <path d="M30 42h64l-6 52H36z" fill="#00a6fb"/>
+  <path d="M48 44c0-26 28-26 28 0" fill="none" stroke="#17324d" stroke-width="7" stroke-linecap="round"/>
+  <path d="m62 54 6 13 14 1-10 10 3 14-13-7-13 7 3-14-10-10 14-1z" fill="#ffd166"/>
+  <text x="112" y="70" fill="#0066cc" font-family="Arial, sans-serif" font-size="38" font-weight="bold">FUTURE MALL</text>
+  <text x="114" y="94" fill="#17324d" font-family="Arial, sans-serif" font-size="14">SHOP TODAY. LIVE TOMORROW.</text>
+</svg>
