@@ -1,0 +1,1 @@
+PENDING: Import the included Garage Wiring.json and Garage Code.py into Wokwi, run the simulation, then paste the real Wokwi Share URL here. No URL has been fabricated.
