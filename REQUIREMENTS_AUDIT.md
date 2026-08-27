@@ -22,11 +22,13 @@
 - [x] Column chart
 
 ### Task 1C — Product Classifier
-- [ ] Requires the supplied `Future_Mall_Product_Classifier_Template.py` file.
-- [ ] Requires 30 real training images (10 per category) and at least three separate real test images.
-- [ ] Requires real training/test output: image name, predicted category, and confidence.
-
-These cannot be truthfully manufactured without the template and image dataset.
+- [x] Three categories: fruit, veg, dairy
+- [x] Uses every supplied training image: 9 fruit, 10 veg, 9 dairy (28 total)
+- [x] Uses three separate test images
+- [x] Records each test image name, prediction, and real confidence output
+- [x] Preserves an incorrect `Marketvegetables.jpg → dairy` result honestly
+- [ ] The supplied `Future_Mall_Product_Classifier_Template.py` was not available, so the project contains a simple local substitute rather than a completion of that specific template.
+- [ ] The supplied dataset has 28 rather than the requested 30 training images; two additional real images would be needed to meet the 10-per-category target exactly.
 
 ### Task 2 — HTML/CSS Page
 - [x] Required `head` and `body`
