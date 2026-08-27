@@ -1,0 +1,10 @@
+Epoch 1
+360_F_231842968_qThCnmslPbEAwhg7nuW9rAy8qRNhRli7.jpg | fruit | 89.32%
+Marketvegetables.jpg | dairy | 54.26%
+Oranges_-_whole-halved-segment.jpg | fruit | 58.37%
+
+Epoch 2
+360_F_231842968_qThCnmslPbEAwhg7nuW9rAy8qRNhRli7.jpg | dairy | 98.18%
+Marketvegetables.jpg | fruit | 62.90%
+Oranges_-_whole-halved-segment.jpg | veg | 71.24%
+
