@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "author": "EYOUTH-30909090117044",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 20, "left": 0, "attrs": {} },
+    { "type": "wokwi-pushbutton", "id": "entry", "top": -70, "left": 300, "attrs": { "color": "green", "label": "ENTRY" } },
+    { "type": "wokwi-pushbutton", "id": "exit", "top": -10, "left": 300, "attrs": { "color": "blue", "label": "EXIT" } },
+    { "type": "wokwi-led", "id": "green", "top": 190, "left": 290, "attrs": { "color": "green", "label": "SPACES" } },
+    { "type": "wokwi-led", "id": "red", "top": 250, "left": 290, "attrs": { "color": "red", "label": "FULL" } },
+    { "type": "wokwi-led", "id": "yellow", "top": 310, "left": 290, "attrs": { "color": "yellow", "label": "ENTRY" } },
+    { "type": "wokwi-led", "id": "blue", "top": 370, "left": 290, "attrs": { "color": "blue", "label": "EXIT" } },
+    { "type": "wokwi-resistor", "id": "r_green", "top": 190, "left": 410, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r_red", "top": 250, "left": 410, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r_yellow", "top": 310, "left": 410, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r_blue", "top": 370, "left": 410, "attrs": { "value": "220" } }
+  ],
+  "connections": [
+    [ "esp:GPIO12", "entry:1.l", "green", [ "v0" ] ],
+    [ "entry:2.l", "esp:GND.1", "black", [ "v0" ] ],
+    [ "esp:GPIO13", "exit:1.l", "blue", [ "v0" ] ],
+    [ "exit:2.l", "esp:GND.1", "black", [ "v0" ] ],
+    [ "esp:GPIO25", "green:A", "green", [ "v0" ] ],
+    [ "green:C", "r_green:1", "green", [ "v0" ] ],
+    [ "r_green:2", "esp:GND.1", "black", [ "v0" ] ],
+    [ "esp:GPIO26", "red:A", "red", [ "v0" ] ],
+    [ "red:C", "r_red:1", "red", [ "v0" ] ],
+    [ "r_red:2", "esp:GND.1", "black", [ "v0" ] ],
+    [ "esp:GPIO27", "yellow:A", "yellow", [ "v0" ] ],
+    [ "yellow:C", "r_yellow:1", "yellow", [ "v0" ] ],
+    [ "r_yellow:2", "esp:GND.1", "black", [ "v0" ] ],
+    [ "esp:GPIO14", "blue:A", "blue", [ "v0" ] ],
+    [ "blue:C", "r_blue:1", "blue", [ "v0" ] ],
+    [ "r_blue:2", "esp:GND.1", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
